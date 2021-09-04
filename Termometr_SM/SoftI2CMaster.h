@@ -95,7 +95,7 @@
 #define _SOFTI2C_H   1
 
 #include <avr/io.h>
-#include <Arduino.h>
+#include "Arduino.h"
 #include <util/twi.h>
 
 #pragma GCC diagnostic push

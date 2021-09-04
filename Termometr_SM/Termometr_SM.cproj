@@ -133,6 +133,12 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Arduino.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="binary.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="dhtxx.c">
       <SubType>compile</SubType>
     </Compile>
@@ -149,6 +155,12 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="pins_arduino.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="SoftI2CMaster.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
